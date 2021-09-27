@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+nav {
+    background-color:#17202A;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    height: 30px;
+}
+
+a {
+    color: rgb(165, 32, 147);
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.first-img {
+    width: 700px;
+}
+
+.alinear {
+    margin: auto;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#palabra {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+#palabra::before {
+      color: #c62828;
+      content: "___ ";
+}
+
+#palabra::after {
+      color: #2e7d32;
+      content: "*";
+}
+  
+  #texto::after {
+      color: #2e7d32;
+      content: ":esto no lo he escrito en el";
+}
+  
+  #revoloteado:hover {
+      color: #6a1b9a;
+}
+
+

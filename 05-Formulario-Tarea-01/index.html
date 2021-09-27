@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Registrate</title>
+</head>
+
+<body>
+    <form action="#">
+        <label for="nombre">Nombre</label> <br>
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="nombre" placeholder="Apellidos" required> <br>
+        <label for="nombre-de-usuario">Nombre de usuario</label> <br>
+        <input type="email" id="nombre-de-usuario" placeholder="@gmail.com" required> <br>
+        <label for="contraseña">Contraseña</label> <br>
+        <input type="password" id="contraseña" required> <br>
+        <label for="contraseña"> Confirma tu contraseña</label> <br>
+        <input type="password" id="contraseña" required> <br>
+        <label for="fecha-de-nacimiento">Fecha de nacimiento</label> <br>
+        <input type="date" id="fecha-de-nacimiento" required> <br>
+        <label for="sexo">Sexo</label> <br>
+        <select name="sexo">
+            <option value="value1">Selecciona tu género</option>
+            <option value="value2">Femenino</option>
+            <option value="value3">Masculino</option>
+            <option value="value4">Otro</option>
+        </select> <br>
+        <label for="telefono-movil">Teléfono móvil</label> <br>
+        <input type="tel" id="telefono-movil" placeholder="+34" pattern="{1,9}" required> <br>
+        <label for="correo-actual">Tu dirección de correo electrónico actual</label> <br>
+        <input type="email" id="correo-actual" required> <br>
+        <label for="ubicacion">Ubicación</label> <br>
+        <select name="ubicacion"> 
+            <option class="aling" value="value1">España</option required>
+        </select> <br>
+        <input class="submit" type="submit" value="Siguiente paso" required>
+    </form>
+</body>
+
+</html>

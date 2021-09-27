@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./formulario.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <form id="form-registro" action="#">
+            <h1 id="titulo">Registro</h1>
+            <div class="informacion"><label for="Documento"></label>Documento <br>
+                <input class="box-style" type="text" name="doc" id="doc" placeholder="Ingrese su documento">
+            </div>
+            <div class="informacion"> <label for="Nombre"></label>Nombre <br>
+                <input class="box-style" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+            </div>
+            <div class="informacion">
+                <label for="Apellido"></label>Apellido <br>
+                <input class="box-style" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+            </div>
+            <div class="informacion">
+                <label for="Telefono"></label>Teléfono <br>
+                <input class="box-style" type="text" name="telefono" id="telefono" placeholder="Ingrese su número de teléfono">
+            </div>
+            <div class="informacion">
+                <label for="Direccion"></label>Dirección <br>
+                <input class="box-style" type="text" name="direccion" id="direccion" placeholder="Ingrese su dirección actual">
+            </div>
+            <div class="informacion">
+                <label for="Barrio"></label>Barrio <br>
+                <input class="box-style" type="text" name="barrio" id="barrio" placeholder="Ingrese el nombre del barrio">
+            </div>
+            <div class="informacion">
+                <label for="Observaciones"></label>Observaciones <br>
+                <input type="text" name="observaciones" id="observaciones">
+            </div>
+            <div>
+                <input id="boton" type="button" onclick="enviar()" value="Enviar">
+            </div>
+            <div id="Error">
+            </div>
+        </form>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedorTitulo {
+    font-family: 'Shadows Into Light Two', cursive;
+    background-color: rgba(251, 251, 251, 0.3);
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 60px;
+    width: 100%;
+}
+
+#fondo {
+    background-image: url(./pastor\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 80vh;
+}
+
+#titulo {
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+#titulo h1 {
+    float: left;
+}
+
+.contenedorNav {
+    width: 100%;
+    margin: auto;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 22px;
+}
+
+#cabeza {
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index: inherit;
+    width: 100%;
+    height: auto;
+    background-color: rgba(149, 164, 165, 0.5);
+    padding: 5px;
+}
+
+#cabeza h1{
+    float: left;
+}
+.menu {
+    float: right;
+    margin-top: 10px;
+    display: block;
+}
+
+.menu li {
+    list-style: none;
+    float: left;
+    margin: 5px;
+}
+
+.menu li ul {
+    display: none;
+    position: absolute;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
+li ul li {
+    height: -145;
+    top: 0px;
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    padding: 5px 10px;
+    text-align: none;
+}
+
+.menu a:hover{
+    background-color: rgba(251, 251, 251, 0.5);
+}
+
+.ContenedorPrincipal {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ContenedorPrincipal a{
+    color: white;
+    text-decoration: none;
+    width: 10%;
+    padding: 5px 10px;
+}
+
+#principal{
+    color: white;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    padding: 10px;
+    top: 55%;
+}
+
+main article{
+    margin-top: 30px;
+    width: 1000px;
+    margin-left: 200px;
+}
+
+table img{
+    width: 400px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+video{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+}
+
+
+

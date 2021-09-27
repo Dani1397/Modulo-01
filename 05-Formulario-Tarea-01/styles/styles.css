@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto:wght@500;900&display=swap');
+
+* {
+    background-color: #F2F3F4;
+    margin: 0;
+    padding: 0;
+}
+
+section label {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 300px;
+    margin-top: 300px;
+}
+
+section input {
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+section select {
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.submit {
+    border-bottom: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #3498DB;
+    float: right;
+}

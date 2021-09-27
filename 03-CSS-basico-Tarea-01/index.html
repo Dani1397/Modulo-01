@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <title>Pseudo Clases</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <header class="contEncabezado">
+            <div id="encabezado">
+                <h1>Pseudo Clases</h1>
+                <p>Una pseudoclase es una palabra clave que se añade a los selectores y <br> que especifica un estado
+                    especial del elemento seleccionado.</p>
+            </div>
+        </header>
+    </section>
+
+    <article class="articulos background-color">
+        <head>
+            <h2>:hover</h2>
+        </head>
+        <p class="p-desing letter">La pseudo-clase :hover de CSS coincide cuando el usuario interactúa con un elemento con un dispositivo
+            señalador, pero no necesariamente lo activa. Generalmente se activa cuando el usuario se desplaza sobre un
+            elemento con el cursor (puntero del mouse).</p>
+        <p class="p-desing letter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ea incidunt cum optio dignissimos! In
+            harum, porro totam tempore delectus quaerat aliquam culpa voluptates ipsum modi temporibus molestiae
+            officiis autem? Veritatis officia, eius expedita magnam voluptatem maxime. Facere, repudiandae non!</p>
+    </article>
+
+    <article class="articulos background-color">
+        <head>
+            <h3 class="subrayado">Ejemplos</h3>
+        </head>
+        <h4>HTML:</h4>
+        <code>< a href="#">Intenta pasar el mouse sobre este enlace. < /a> </code>
+        <h4>CSS:</h4>
+        <code> a { <br>
+            background-color: powderblue; <br>
+            transition: background-color .5s; <br>
+          } <br>
+          
+          a:hover { <br>
+            background-color: gold; <br>
+          }
+        </code>
+    </article>
+
+    <article class="articulos">
+        <h3 class="subrayado">Resultados:</h3>
+        <p id="ejemplo" class="p-desing">Intenta pasar el mouse sobre este enlace.</p>
+    </article>
+</body>
+</html>

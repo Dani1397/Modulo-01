@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+
+nav ul {
+    height: 30px;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #616A6B;
+}
+
+.anchor:hover {
+    color: #229954;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+}
+
+.contenido {
+    display: block;
+    width: 700px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 500px;
+}
+.contenedor-titulo {
+    display: block;
+    width: 700px;
+    font-family: 'Merriweather', serif;
+    margin-left: 500px;
+}

@@ -1,0 +1,55 @@
+body  {
+    margin: 0;
+    padding: 0;
+}
+#encabezado {
+    background:#3498DB;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Palanquin', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+#encabezado :first-child {
+    margin: 0;
+}
+
+.contEncabezado :hover {
+    font-size: 25px;
+}
+
+.articulos {
+    margin: auto;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articulos.background-color :hover {
+    background:#EAEDED;
+}
+
+.subrayado::first-line {
+    text-decoration: underline black;
+}
+.p-desing {
+    font-size: 15px;
+}
+
+.p-desing.letter::first-letter{
+    background-color: rgb(176, 216, 241);
+    font-size: 20px;
+}
+
+#ejemplo {
+    background-color: powderblue; 
+    transition: background-color .5s;
+    text-decoration: underline;
+    color: #005282;
+    width:max-content;   
+}
+
+#ejemplo:hover {
+    background-color: gold;
+}

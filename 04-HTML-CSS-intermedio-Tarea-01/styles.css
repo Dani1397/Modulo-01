@@ -1,0 +1,44 @@
+body {
+    background-color: #128C25;
+}
+
+#fondo {
+    background-image: url(./imagenes/287a10c9cf7d01a468ec26eb14932a10709133372.png);
+    display: flex;
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 730px;
+    height: 480px;
+}
+
+.alinear {
+    position: absolute;
+    bottom:0;
+    margin-left: 340px;
+    margin-block-end: 120px;
+}
+
+.titulo {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.resumen {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color:#BFC9CA;
+}
+
+.boton {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    border-radius: 30px;
+    padding:  0.5em 1em;
+    background-color: #3498DB;
+    color: white;
+    text-decoration: none;
+}
+
+.boton:hover{
+    font-size: 14px;
+}

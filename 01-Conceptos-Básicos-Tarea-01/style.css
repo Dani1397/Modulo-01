@@ -1,0 +1,23 @@
+* {
+    background-color: #f3f4f5;
+}
+
+#titulo {
+    font-family: Arial;
+    font-size: 28px;
+    color: black;
+}
+
+.bandeja {
+    width: 300px;
+}
+
+p {
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+}
+
+h2 {
+    font-style: italic;
+}

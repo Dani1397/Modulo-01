@@ -1,0 +1,11 @@
+body {
+    font-size: 18px;
+    font-family: Tahoma, Verdana, sans-serif;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5em;
+}
+
+body article h1 {
+    color: white;
+}
